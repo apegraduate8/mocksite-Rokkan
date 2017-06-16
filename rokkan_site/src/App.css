@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Container {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-align: initial;
+
+}
+a {
+  color: #b6a86f;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+
+picture {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+   -webkit-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+
+
+}
+
+picture img {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.hero-img {
+  z-index: 200;
+  position: relative;
+height: 100vh;
+}
+
+/*overlay*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: all 5s ease;
+}
+
+/*overlay*/
+.ROKKAN-logo  a{
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 35px;
+}
+
+
+
+
+.mid-module {
+  padding: 40px 0;
+}
+
+
+.tight-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 500;
+  padding: 0 100px;
+}
+.ex-small {
+  width: 24%;
+  padding-right: 20px;
+}
+.ex-small-35 {
+  width: 25%;
+  padding-right: 20px;
+}
+
+p {
+  font-size: 90%;
+  margin-bottom: 1em;
+  text-rendering: optimizeLegibility;
+  line-height: 25px;
+
+}
+
+p > small {
+  color: rgba(128, 128, 128, 0.7);
+  font-weight: 700;
+}
+
+
+.Mid-Two {
+  padding: 100px 10px;
+
+}
+
+.inner-midtwo {
+  padding: 0 100px;
+}
+.inner-midtwo h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  letter-spacing: .1em;
+}
+
+.inner-midtwo p {
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 64px;
+  line-height: 70px;
+  color: #b6a86f;
+  margin-bottom: 1rem;
+}
+
+.Mid-Three {
+  position: relative;
+  -webkit-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+}
+.Mid-Three > span {
+  width: 75px;
+  cursor: pointer;
+
+}
+.play_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0) scale(1);
+  transition: all .5s ease;
+
+}
+.play_btn:hover {
+   transform: translate3d(-50%, -50%, 0) scale(.8);
+}
+.Mid-Three > span > img {
+  max-width: 100%;
+}
+
+.Mid-Dog {
+  padding: 100px 10px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 100;
+}
+.Mid-Dog-inner {
+  padding: 0 100px;
+   overflow: hidden;
+}
+
+.Mid-Dog-inner em{
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 40px;
+  font-style: italic;
+  padding-bottom: 100px;
+
+}
+.Mid-Press{
+  clear: both;
+}
+
+.inner-press {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+.awards {
+  width: 100%;
+}
+.awards h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: #b6a86f;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.Bottom {
+  width: 100%;
+  -webkit-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 3px 32px 1px rgba(0,0,0,0.75);
+}
+
+
+
+.theUL {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 90%;
+}
+.theUL li {
+  list-style: none;
+}
+
+.theUL li a:hover {
+      color: rgb(245, 245, 245);
+}
+.footer-top {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-nav {
+    width: 30%;
+    margin: 2%;
+}
+.footer-social {
+  width: 30%;
+  margin-bottom: 2%;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav a {
+  margin: 0 5%;
+}
+nav a:hover {
+  color: rgb(245, 245, 245);
+}
+
+.letters {
+  font-size: 4em;
+  color: rgba(182, 168, 111, 0.5);
+  margin-left: 20px;
+  top: -60px
+}
+
+ .center-modal {
+      width: 50vw;
+      height: 40vh;
+       }
+  .close {
+    font-size: 5em;
+  }
+  .brick {
+    height: 30px;
+  }
+
+/*
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
+
+
+@media screen and (min-width: 1000px) {
+    .inner-midtwo, .Mid-Dog-inner {
+     padding: 0 200px;
+   }
+
+
+}
+@media screen and (max-width: 1200px) {
+    p {
+      letter-spacing: 1.2px;
+    }
+     .hero-img {
+        height: unset;
+      }
+      .ROKKAN-logo  a{
+            font-size: 2em;
+            line-height: 20px;
+      }
+      .tight-row {
+        flex-direction: column;
+        justify-content: center;
+      }
+      .ex-small {
+        width: 80%;
+        display: flex;
+        margin-bottom: 2%;
+      }
+       .ex-small-35 {
+        width: 100%;
+      }
+      .ex-small p{
+        margin-right: 1em;
+      }
+       .center-modal {
+        width: 60%;
+        height: 60%
+       }
+        .footer-nav {
+        width: 50%;
+        margin: 1%;
+       }
+       .footer-social {
+        width: 40%;
+       }
+       .theUL {
+        font-size: 100%;
+       }
+       .brick {
+        height: 4%;
+       }
+
+}
+
+@media screen and (max-width: 450px) {
+      .hero-img {
+        height: unset;
+      }
+      .ROKKAN-logo  a{
+            font-size: 2em;
+            line-height: 20px;
+      }
+      .tight-row {
+        flex-direction: column;
+        padding: 0 50px;
+      }
+      .ex-small {
+        width: 100%;
+        padding-right: 0;
+      }
+      .ex-small-35 {
+        width: 100%;
+      }
+       .ex-small  img {
+        width: 80%;
+        height: 100%;
+      }
+      #secondIMG {
+        width: 80%;
+        height: 100%;
+      }
+
+      /* Mid two */
+      .inner-midtwo p {
+          font-size: 1em;
+          line-height: 30px;
+      }
+       .inner-midtwo h5 {
+          padding: 30px 0;
+      }
+       .inner-midtwo {
+         padding: 0;
+       }
+       .Mid-Dog {
+        padding: 20px 5px;
+       }
+       .Mid-Dog-inner {
+          padding: 0 20px;
+       }
+       .Mid-Two {
+        padding: 10px 20px;
+       }
+       .inner-press {
+        padding: 0;
+       }
+
+       .awards h3 {
+        padding: 0;
+        margin-bottom: 50px;
+       }
+
+       .footer-nav {
+        width: 90%;
+       }
+       .footer-social {
+        width: 100%;
+       }
+       .theUL {
+        font-size: 80%;
+       }
+       .center-modal {
+        width: 80%;
+        height: 70%
+       }
+       .close {
+        font-size: 2em;
+       }
+       .Mid-Three > span {
+        width: 50px;
+       }
+       .letters {
+        font-size: 2em;
+       }
+       .brick {
+        height: 0%;
+       }
+
+}
+@media screen and (max-width: 360px) {
+
+   .ex-small p {
+       font-size: 80%;
+      }
+}
+
+
