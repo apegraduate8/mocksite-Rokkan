@@ -96,6 +96,5 @@ export default App;
             // <Letters />
 
 
-            // test page ---->  faulty-canvas-test.surge.sh
-            //  efficient-cable-test.surge.sh
-            // condemned-able-test.surge.sh
+
+            // tender-library-test.surge.sh
